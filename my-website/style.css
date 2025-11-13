@@ -1,0 +1,120 @@
+@charset "utf-8";
+
+body { font-size: 20px;
+    background-color: #edffdf4b;
+    font-family:'Nico Moji', sans-serif; 
+}
+#nu ul li {
+    flex: 1;
+    margin-right: 3px;
+    text-align: center;
+}
+#nu ul li a {
+    display: block;
+    padding: 13px;
+    height: 55px; 
+    line-height: 55px;
+    background-color: #bcbdbb;
+    color: #fff;
+    text-decoration: none;
+    min-height: 50px; 
+}
+#nu ul li.current a {
+    background-color: #51515157;
+}
+#nu ul li a:hover {
+    background-color: #8f8f8f;
+}
+#nu ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0;
+    padding: 0; 
+}
+#nu .conter-text{
+  text-align: center;
+}
+h1 {
+  position: relative;
+  background: #d6ffe289;
+  box-shadow: 0px 0px 0px 5px #bedbc48f;
+  border: dashed 2px white;
+  padding: 0.2em 0.5em;
+  color: #454545;
+  margin: 10px auto 40px; 
+  z-index: 1; 
+}
+
+h1:after {
+  position: absolute;
+  content: '';
+  left: -7px;
+  top: -7px;
+  border-width: 0 0 15px 15px;
+  border-style: solid;
+  border-color: #fff #fff #21eb6490;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+  z-index: 1;
+}
+h3 {
+  position: relative;
+  padding: 0.25em 0;
+}
+h3:after {
+  content: "";
+  display: block;
+  height: 4px;
+  background: -webkit-linear-gradient(to right, rgb(134, 137, 143), transparent);
+  background: linear-gradient(to right, rgba(255, 196, 232, 0.644), transparent);
+}
+.footer04 {
+ color: #808080;
+ background: #dfdfdf51;
+ text-align: center;
+ padding: 30px;
+}
+.footer04 a {
+ color: #808080;
+ text-decoration: none;
+}
+.footer04 a:hover {
+ text-decoration: underline;
+}
+.footer04 .menu {
+ margin: 0;
+ padding: 0;
+ list-style: none;
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+}
+.footer04 .menu li {
+ margin: 0;
+ padding: 0 20px;
+ border-right: 1px #808080 solid;
+}
+.footer04 .menu li:last-child {
+ border: none;
+}
+.footer04 .copyright {
+ margin: 0;
+ padding: 20px 0 0 0;
+}
+
+@media only screen and (max-width: 599px) {
+.footer04 .menu {
+ justify-content: flex-start;
+}
+.footer04 .menu li {
+ width: 50%;
+ box-sizing: border-box;
+ border: none;
+}
+.footer04 .menu li:nth-child(odd) {
+ border-right: 1px #808080 solid;
+}
+}
+
+@media (max-width: 768px) {
+}
